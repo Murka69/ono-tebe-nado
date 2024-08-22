@@ -55,7 +55,7 @@
 }
 
 .overlay {
-  width: 1100px;
+  width: 1099px;
   height: 757px;
   opacity: 60%;
   position: absolute;
@@ -75,6 +75,7 @@
   z-index: 1;
   width: 1000px;
   height: 355px;
+  padding-bottom: 237px;
   font-weight: 700;
   font-size: 100px;
   text-transform: uppercase;
@@ -90,7 +91,7 @@
 .aligned-text_center {
   text-align: center;
   line-height: 100%;
-  padding: 300px 395px 357px 336px;
+  padding-left: 336px;
   letter-spacing: 0.3em;
 }
 .letter-spacing-extended {
@@ -100,7 +101,7 @@
   text-align: right;
   line-height: 100%;
   letter-spacing: 0.6em;
-  padding: 420px 50px 237px 633px;
+  padding-left: 633px;
 }
 
 .letter-spacing-extended_ {
@@ -117,12 +118,20 @@
   z-index: 1;
 }
 .cover__description-text {
+  display: block;
+  width: 637px;
+  height: 28px;
+  margin-top: 23px;
   font-weight: 400;
   font-size: 22px;
-  line-height: 127%;
+  line-height: 28px;
   color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
-  word-spacing: 1.1em;
+  letter-spacing: 0.1em;
+}
+
+.text__b{
+    letter-spacing: 0.1em;
 }
 .bet-button {
   background-color: transparent;
