@@ -12,8 +12,11 @@
   padding-top: 44px;
 }
 
-.header__links-list-item {
+.header__link a {
   border: 1px;
+}
+
+.header__links-list-item {
   font-size: 18px;
   list-style: circle;
   line-height: 21.13px;
@@ -50,7 +53,7 @@
   text-decoration: none;
 }
 
-.line span {
+.line {
   border-bottom: 1px solid;
 }
 
@@ -69,6 +72,8 @@
   width: 100%;
   height: 100%;
   position: absolute;
+  top: 0;
+  left: 0;
   z-index: 1;
   opacity: 0.6;
   background-color: #000;
@@ -76,7 +81,6 @@
 
 .cover__title {
   position: relative;
-  padding-left: 50px;
   z-index: 1;
   width: 100%;
   height: 100%;
@@ -91,16 +95,15 @@
   text-align: left;
   line-height: 115%;
   padding-top: 165px;
+  padding-left: 50px;
   letter-spacing: 0.3em;
 }
 .aligned-text_center {
   display: block;
   text-align: center;
-  word-spacing: normal;
   padding-top: 18px;
   line-height: 1;
-  letter-spacing: 0.3em;
-  padding-right: 44px;
+  letter-spacing: 30px;
 }
 .letter-spacing-extended {
   letter-spacing: 0.6em;
@@ -108,20 +111,16 @@
 .aligned-text_right {
   display: block;
   text-align: right;
-  line-height: 100%;
-  letter-spacing: 0.6em;
+  line-height: 1;
   padding-top: 20px;
-  padding-right: 48px;
 }
 
 .letter-spacing-extended_ {
-  letter-spacing: 0.3em;
+  letter-spacing: 0.244em;
 }
-
 .no-letter-spacing {
-  letter-spacing: 0em;
+  letter-spacing: 0.523em;
 }
-
 .cover__description {
   display: flex;
   justify-content: space-between;
@@ -139,7 +138,7 @@
   line-height: 127%;
   text-transform: uppercase;
   color: #fff;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.09em;
   word-spacing: 6px;
 }
 
@@ -173,6 +172,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 25px;
   list-style: none;
+  gap: 27px 25px;
 }
 
 .lots__card-list-item {
@@ -181,10 +181,12 @@
   min-height: 563px;
 }
 .overlay-card {
-  width: 334px;
-  height: 563px;
+  width: 100%;
+  height: 100%;
   opacity: 60%;
   position: absolute;
+  top: 0;
+  left: 0;
   background-color: rgba(0, 0, 0, 1);
 }
 .card {
@@ -196,7 +198,6 @@
   width: 334px;
   color: #fff;
   height: 100%;
-  gap: 27px 25px;
 }
 .card-link {
   text-decoration: none;
@@ -225,23 +226,21 @@
   font-size: 20px;
   line-height: 24px;
   inset: 0px 40px 48px;
+  padding-bottom: 49px;
   word-break: inherit;
   color: #fff;
 }
 
 .card_type_film {
   background: url(../images/card-lot-01.jpg) center/cover;
-  padding-bottom: 50px;
 }
 
 .card_type_book {
   background: url(../images/card-lot-02.jpg) center/ cover;
-  padding-bottom: 50px;
 }
 
 .card_type_picture {
   background: url(../images/card-lot-03.jpg) center/cover;
-  padding-bottom: 49px;
 }
 
 .lots__look-more-link {
@@ -256,10 +255,10 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  column-gap: 49px;
+  column-gap: 72px;
   padding-top: 14px;
   justify-content: center;
-  width: 100%;
+  width: 1052px;
 }
 
 .about__column {
@@ -269,14 +268,14 @@
 .about__logo {
   width: 240px;
   height: 240px;
-  border-radius: 50%;
+  border-radius: 60%;
   background: black;
-  margin-left: 70px;
-  margin-top: 20px;
+  margin-left: 96px;
+  margin-top: 22px;
 }
 
 .about__logo-image {
-  margin: 62.25px 47.56px 62.2px 50.9px;
+  margin: 62.25px 49.59px 65.2px 45.9px;
   width: 148px;
 }
 
@@ -288,7 +287,8 @@
   color: #000;
 }
 .about__text {
-  padding-top: 100px;
+  width: 693px;
+  padding-top: 97px;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
@@ -296,12 +296,14 @@
   color: #000;
 }
 
-.about__text__ph {
+.about__text_last {
+  width: 693px;
   padding-top: 24px;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.01em;
+  word-spacing: normal;
   color: #000;
 }
 
@@ -310,7 +312,7 @@
   justify-content: space-between;
   align-items: center;
   width: 1000px;
-  margin-top: 158px;
+  margin-top: 152px;
   margin-left: 50px;
   margin-right: 49px;
   font-size: 18px;
@@ -321,8 +323,8 @@
   all: unset;
   justify-self: end;
   line-height: 135%;
-  padding-top: 22px;
-  padding-left: 5px;
+  padding-top: 30px;
+  padding-left: 4px;
 }
 .footer__address a {
   text-decoration: none;
