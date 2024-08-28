@@ -95,8 +95,8 @@
   text-align: left;
   line-height: 115%;
   padding-top: 165px;
-  padding-left: 50px;
-  letter-spacing: 0.3em;
+  white-space:break-spaces;
+  letter-spacing: 0.28em;
 }
 .aligned-text_center {
   display: block;
@@ -116,7 +116,7 @@
 }
 
 .letter-spacing-extended_ {
-  letter-spacing: 0.244em;
+  letter-spacing: 0.251em;
 }
 .no-letter-spacing {
   letter-spacing: 0.523em;
