@@ -12,7 +12,7 @@
   padding-top: 44px;
 }
 
-.header__link{
+.header__link {
   border: 1px;
 }
 
@@ -95,7 +95,7 @@
   text-align: left;
   line-height: 115%;
   padding-top: 165px;
-  white-space:break-spaces;
+  white-space: break-spaces;
   letter-spacing: 0.28em;
 }
 .aligned-text_center {
